@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.videostreaming.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_marginTop="@dimen/top_margin_custom"
+        android:padding="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:id="@+id/clickhere"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="102dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="@dimen/left_button_margin"
+        android:layout_marginTop="@dimen/top_button_margin"
+        android:text="Click" />
+
+</FrameLayout>
+
