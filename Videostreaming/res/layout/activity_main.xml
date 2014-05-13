@@ -20,7 +20,7 @@
         android:layout_height="67dp"
         android:layout_marginLeft="@dimen/left_button_margin"
         android:layout_marginTop="@dimen/top_button_margin"
-        android:text="Click Video" />
+        android:text=" Click Video" />
 
 </FrameLayout>
 
